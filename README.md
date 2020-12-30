@@ -3,17 +3,17 @@
 A file-based key-value data store that supports the basic CRD (create, read, and delete) operations.
 This data store is meant to be used as a local storage for one single process on one laptop. 
 ### Note:
-`Add CRD.py, utils.py, config-db.json files to your project for integrating the database`
+`Add datastore directory and config-db.json to your project for integrating the database and refer main.py file for initialising the database.`
 ## File structure
-#### CRD.py
+#### datastore/CRD.py
    Contains create, read, delete methods.
-#### utils.py
+#### datastore/utils.py
    Contains methods for handling file database.
 #### main.py
    This file is to initialise and run the application.
 #### config-db.json
-   Contains JSON data for file database configuration.
-#### filedb.json
+   Contains JSON data for file-database configuration.
+#### db/filedb.json
    This file will be created after initialising the application. It is used to store the data.
 ## Languages used
   Python
