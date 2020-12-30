@@ -7,7 +7,7 @@ from datastore.utils import Utils
 from datastore.CRD import CRD
 
 
-# Must needed operations to access the File Database
+# Must needed operations to initialise the File Database
 
 # Instantiating Utils class to access the methods in it
 utils = Utils()
