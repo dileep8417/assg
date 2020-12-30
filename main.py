@@ -1,7 +1,6 @@
 import time
 import os
 import json 
-import sys
 # Custom modules
 from datastore.utils import Utils  
 from datastore.CRD import CRD
